@@ -33,3 +33,4 @@ int extractNumber(String str, char startChar, char endChar) {
   int startPos = str.indexOf(startChar) + 1;
   int endPos = str.indexOf(endChar, startPos);
   return str.substring(startPos, endPos).toInt();
+}
